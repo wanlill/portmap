@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var help = "usage: portmap.js --lport=80 --rhost=www.baidu.com --rport=80 [--secret xxx <--ec | --dc>]"
+var help = "usage: b2c.js --lport=80 --rhost=www.baidu.com --rport=80 [--secret xxx <--ec | --dc>]"
 var args = require('optimist').argv
 if (! (args.lport && args.rport && args.rhost) || args.h || args.help) {
 		console.log(help);
